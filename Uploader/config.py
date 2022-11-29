@@ -68,7 +68,7 @@ class Config(object):
     PROCESS_MAX_TIMEOUT = 3700
     # watermark file
     DEF_WATER_MARK_FILE = ""
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001560385250"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001858175451"))
     OWNER_ID = int(os.environ.get("OWNER_ID", "1430593323"))
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "kipppbot")
     ADL_BOT_RQ = {}
