@@ -36,7 +36,7 @@ logging.basicConfig(
 
 class Config(object):
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5204273691:AAHcmfkQ-LZcVcWEA44drE3gn7mHSvbOEsY")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5204273691:AAHDyMxg6ssc4bbkMPdOx4HjVeraZZ4Chkk")
     # The Telegram API things
     API_ID = int(os.environ.get("API_ID", "6534707"))
     API_HASH = os.environ.get("API_HASH", "4bcc61d959a9f403b2f20149cbbe627a")
@@ -70,7 +70,7 @@ class Config(object):
     DEF_WATER_MARK_FILE = ""
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001858175451"))
     OWNER_ID = int(os.environ.get("OWNER_ID", "1430593323"))
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "kipppbot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "Organizertalkbot")
     ADL_BOT_RQ = {}
     AUTH_USERS = list({int(x) for x in os.environ.get("AUTH_USERS", "0").split()})
     AUTH_USERS.append(OWNER_ID)
