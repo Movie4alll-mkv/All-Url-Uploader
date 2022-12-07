@@ -16,6 +16,5 @@ filetype
 tldextract
 aiofiles
 pyromod
-yt-dlp
 filesplit==3.0.2
 mega.py
