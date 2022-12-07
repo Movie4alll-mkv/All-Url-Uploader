@@ -74,4 +74,4 @@ class Config(object):
     ADL_BOT_RQ = {}
     AUTH_USERS = list({int(x) for x in os.environ.get("AUTH_USERS", "0").split()})
     AUTH_USERS.append(OWNER_ID)
-    Port = "8080"
+    PORT = "0.0.0.0"
